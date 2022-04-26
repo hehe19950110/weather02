@@ -1,0 +1,19 @@
+{
+  "name": "weather02",
+  "version": "1.0.2",
+  "description": "weather",
+  "main": "index.js",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "ls -al"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "weather01": "^1.0.0"
+  }
+}
